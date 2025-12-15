@@ -1,12 +1,12 @@
 import { Github, Twitter, Instagram, Mic, Music, PenTool } from 'lucide-react';
 
 export const SOCIAL_LINKS = [
-  { name: 'X', url: 'https://twitter.com', icon: Twitter },
-  { name: 'note', url: 'https://note.com', icon: PenTool },
-  { name: 'Stand.fm', url: 'https://stand.fm', icon: Mic },
-  { name: 'Spotify', url: 'https://spotify.com', icon: Music },
-  { name: 'GitHub', url: 'https://github.com', icon: Github },
-  { name: 'Instagram', url: 'https://instagram.com', icon: Instagram },
+  { name: 'X', url: 'https://x.com/39ceeport39', icon: Twitter },
+  { name: 'note', url: 'https://note.com/pivot1786', icon: PenTool },
+  { name: 'Stand.fm', url: 'https://stand.fm/channels/67adcd852bbf21b8e567be28', icon: Mic },
+  { name: 'Spotify', url: 'http://open.spotify.com/show/7eXIRJzFq8gBkRsbQuWCJu', icon: Music },
+  { name: 'GitHub', url: 'https://github.com/cavibecoder/pivot-homepage', icon: Github },
+  { name: 'Instagram', url: 'https://www.instagram.com/pivot.bloglife/?next=%2F&hl=ja', icon: Instagram },
 ];
 
 type Dictionary = {
@@ -110,7 +110,7 @@ const dictionaries: Record<string, Dictionary> = {
   },
   ja: {
     hero: {
-      name: 'Pivot (ぴぼっと)',
+      name: 'ぴぼっと (Pivot)',
       tagline: '軽やかに、シンプルに考える。',
       contactBtn: 'お問い合わせ',
       socialBtn: 'SNSリンク',
